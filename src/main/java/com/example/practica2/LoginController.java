@@ -48,11 +48,9 @@ public class LoginController {
 
             lbl1.setText("Información correcta");
 
-            Parent root = FXMLLoader.load(
-                    getClass().getResource("administrador.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("Menu.fxml"));
 
-            Stage stage = (Stage) ((Node) event.getSource())
-                    .getScene().getWindow();
+            Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
 
             stage.setScene(new Scene(root));
             stage.show();

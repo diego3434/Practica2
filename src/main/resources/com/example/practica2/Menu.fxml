@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.practica2.MenuController">
+   <children>
+      <Label prefHeight="47.0" prefWidth="125.0" text="MENU" textAlignment="CENTER" />
+      <Button layoutY="47.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="99.0" text="INICIO" />
+      <Button layoutY="84.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="99.0" text="PRODUCTOS" />
+      <Button layoutY="129.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="99.0" text="CATEGORIAS" />
+      <Button layoutY="174.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="99.0" text="CLIENTES" />
+      <Button layoutY="261.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="99.0" text="REPORTES" />
+      <Button layoutY="217.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="99.0" text="VENTAS" />
+      <Button layoutY="307.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="99.0" text="USUARIOS" />
+      <Button layoutY="354.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="99.0" text="CERRAR SESIÓN">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Label layoutX="125.0" layoutY="15.0" prefHeight="34.0" prefWidth="154.0" text="PRODUCTOS" />
+      <TextField layoutX="118.0" layoutY="95.0" prefHeight="25.0" prefWidth="108.0" promptText="Ej:001" />
+      <Label layoutX="118.0" layoutY="121.0" text="Código Producto" />
+      <TextField layoutX="249.0" layoutY="95.0" prefHeight="25.0" prefWidth="116.0" promptText="Ingrese el nombre" />
+      <Label layoutX="249.0" layoutY="121.0" text="Nombre del Producto" />
+      <Label layoutX="393.0" layoutY="121.0" text="Categoria" />
+      <TextField layoutX="118.0" layoutY="164.0" prefHeight="25.0" prefWidth="108.0" promptText="0.00" />
+      <Label layoutX="118.0" layoutY="192.0" text="Precio" />
+      <TextField layoutX="249.0" layoutY="162.0" prefHeight="25.0" prefWidth="116.0" promptText="0" />
+      <Label layoutX="249.0" layoutY="192.0" text="Stock" />
+      <Label layoutX="393.0" layoutY="192.0" text="Estado" />
+      <Button layoutX="109.0" layoutY="222.0" mnemonicParsing="false" text="Nuevo" />
+      <Button layoutX="172.0" layoutY="222.0" mnemonicParsing="false" text="Guardar" />
+      <Button layoutX="245.0" layoutY="222.0" mnemonicParsing="false" text="Actualizar" />
+      <Button layoutX="324.0" layoutY="222.0" mnemonicParsing="false" text="Eliminar" />
+      <Button layoutX="401.0" layoutY="222.0" mnemonicParsing="false" text="Limpiar" />
+      <Label layoutX="102.0" layoutY="264.0" prefHeight="17.0" prefWidth="82.0" text="Codigo" />
+      <Label layoutX="164.0" layoutY="264.0" prefHeight="17.0" prefWidth="99.0" text="Nombre" />
+      <Label layoutX="384.0" layoutY="264.0" prefHeight="17.0" prefWidth="99.0" text="Stock" />
+      <Label layoutX="245.0" layoutY="264.0" prefHeight="17.0" prefWidth="99.0" text="Categoria" />
+      <Label layoutX="316.0" layoutY="264.0" prefHeight="17.0" prefWidth="99.0" text="Precio" />
+      <Label layoutX="445.0" layoutY="264.0" prefHeight="17.0" prefWidth="99.0" text="Estado" />
+      <Label layoutX="518.0" layoutY="264.0" prefHeight="17.0" prefWidth="99.0" text="Acciones" />
+      <ComboBox layoutX="384.0" layoutY="162.0" prefWidth="150.0" promptText="Seleccione Estado" />
+      <ComboBox layoutX="384.0" layoutY="95.0" prefWidth="150.0" promptText="Seleccione Categoria" />
+   </children>
+</AnchorPane>
